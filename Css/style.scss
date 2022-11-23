@@ -4,13 +4,11 @@ body {
 .card {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 25%);
+  transform: translate(-50%, 50%);
   text-align: center;
   padding: 15px;
   border-radius: 10px 10px 10px 10px;
-  //   font-size: 15px;
   font-family: "Outfit", sans-serif;
-  font-weight: 400 700;
 }
 .card-text:last-child {
   margin-bottom: 0;
