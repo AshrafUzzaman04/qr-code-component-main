@@ -1,0 +1,28 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.card {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px 10px 10px 10px;
+  //   font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400 700;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+}
+.card-img-top {
+  --bs-card-inner-border-radius: calc(0.375rem - 1px);
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+img {
+  border-radius: 0px 0px 10px 10px;
+}
+p {
+  font-size: 15px;
+}
