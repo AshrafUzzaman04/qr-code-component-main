@@ -2,10 +2,13 @@ body {
   background-color: hsl(212deg, 45%, 89%);
 }
 
-.card {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 50%);
+.mainBg {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainBg .card {
   text-align: center;
   padding: 15px;
   border-radius: 10px 10px 10px 10px;

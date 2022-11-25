@@ -1,18 +1,19 @@
 body {
   background-color: hsl(212, 45%, 89%);
+}
+.mainBg {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  .card {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Outfit", sans-serif;
+  }
 }
-.card {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  text-align: center;
-  padding: 15px;
-  border-radius: 10px 10px 10px 10px;
-  font-family: "Outfit", sans-serif;
-}
+
 .card-text:last-child {
   margin-bottom: 0;
 }
